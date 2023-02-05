@@ -288,6 +288,59 @@ body{
     background-color: white;
 }
 
+/* Comenzamos con CONTACT ME */
+
+.ContactMe{
+    width: 328px;
+    margin: 0 auto;
+}
+
+.Ingresar_datos{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.redes_sociales{
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.texto_social{
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.social{
+    width: 100px;
+    height: 19px;
+    left: 9px;
+    top: 272px;
+
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    background: #EDEDED;
+    border-radius: 10px;
+
+    color: #000000;
+}
+
+
 
 
 /* Tablet */

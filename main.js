@@ -158,5 +158,47 @@ printResults(Csharp_lenguaje, Csharp_Habilidad, Csharp_Amor_al_programa, results
 
 
 // Aqui se pasa la cosa a string
-const newPython = JSON.stringify(Python);
-console.log(newPython);
+// const newPython = JSON.stringify(Python);
+// console.log(newPython);
+
+// Aquí empezamos a trabajar Contact Me
+
+function ValidarCorreo(correo,contrasenia, campo){
+    var expReg= /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/;
+    var esValido = expReg.test(correo);
+
+    if(esValido == true){
+        // alert('El correo es válido');
+        ValidarContrasenia(contrasenia, campo);
+    }else{
+        alert('El correo electrónico NO es válido');
+    }
+}
+
+function ValidarContrasenia (contrasenia, campo){
+    var expReg = /^.{4,12}$/;
+    var esValido = expReg.test(contrasenia);
+
+    if(esValido == true){
+        // alert('La contrasenia es válida');
+        ValidarCampoNOVacio(campo);
+    }else{
+        alert('La contrasenia NO es válida');
+    }
+
+}
+
+function ValidarCampoNOVacio (campo){
+    if(campo.length != 0){
+        alert('Felicidades, Se envió tu mensaje')
+    }else{
+        alert('Campo de texto Vacío')
+    }
+}
+// const btnSend = document.querySelector("btn-send");
+
+
+// btnSend.addEventListener('click', function(){
+//     const usuario = document.querySelector("logincontactme");
+//     console.log(usuario);
+// })
