@@ -246,13 +246,49 @@ body{
 /* Agregando cosas para el About Me */
 
 .about_me{
-    width: 90%;
-    height: 3100px;
+    width: 500px;
+    height: 1700px;
     margin: 0 auto;
     overflow: hidden;
 
     align-items: center;
 }
+
+/* Agregando para Skills */
+
+.Skills{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.bloque{
+    text-align: center;
+}
+
+.titulo_del_bloque{
+    position: relative;
+
+    background: #FFFFFF;
+    border-radius: 10px 10px 0 0;
+
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.parrafo_bloque{
+    background-color: white;
+}
+
+
 
 /* Tablet */
 @media (min-width: 500px){

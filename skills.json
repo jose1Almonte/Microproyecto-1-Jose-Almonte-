@@ -1,0 +1,18 @@
+[
+    {
+        "lenguaje": "Python",
+        "Habilidad": 8,
+        "Amor_al_programa": 8 
+    },
+    {
+        "lenguaje": "Java",
+        "Habilidad": 8,
+        "Amor_al_programa": 9
+    },
+    {
+        "lenguaje": "C#",
+        "Habilidad": 5,
+        "Amor_al_programa": 7
+    }
+
+]
