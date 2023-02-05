@@ -214,8 +214,7 @@ body{
 
 .parrafo{
     padding-top: 10px;
-    background-color: #6B88D3;
-    border-radius: 30px 30px 0px 0px;    
+    
     width: 100%;
     height: 120px;
     left: 56px;
@@ -233,10 +232,26 @@ body{
     
 }
 
+#parrafo_experiencia{
+    background-color: #6B88D3;
+    border-radius: 30px 30px 0px 0px;
+}
+
 .img_experience{
 
     border-radius: 0px 0px 30px 30px;
 
+}
+
+/* Agregando cosas para el About Me */
+
+.about_me{
+    width: 90%;
+    height: 3100px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    align-items: center;
 }
 
 /* Tablet */
