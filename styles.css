@@ -68,7 +68,7 @@ body{
 }
 
 
-/* Aqui empezamos con el carrusel */
+/* Aqui empezamos con el HERO (Carrusel, Slider) */
 
 .container-slider{
     width: 90%;
@@ -128,8 +128,121 @@ body{
     right: 10px;
 }
 
+/* Aqui empezamos con el Experience */
+
+.experience{
+    padding-top: 100px;
+    padding-left: 1%;
+    width: 500px;
+    height: 1800px;
+    left: 0px;
+    top: 437px;
+    overflow: hidden;
+    margin: 0 auto;
+
+
+}
+
+.BigTitle{
+    
+    width: 100%;
+    height: 58px;
+    left: 18px;
+    top: -3px;
+
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+
+    /* identical to box height */
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #FFFFFF;
+}
+
+.topics_experience{
+    padding-top: 30px;
+    width: 100%;
+    height: 1550px;
+    left: 18px;
+    top: 66px;
+}
+
+.topic{
+    width: 100%;
+    height: 549px;
+    left: 0px;
+    top: 0px;
+}
+
+
+.Title{
+    /* background-color: red; */
+    width: 100%;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.parrafo a{
+    width: 100%;
+    height: 120px;
+    left: 56px;
+    top: 37px;
+
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+
+.parrafo{
+    padding-top: 10px;
+    background-color: #6B88D3;
+    border-radius: 30px 30px 0px 0px;    
+    width: 100%;
+    height: 120px;
+    left: 56px;
+    top: 37px;
+    
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+}
+
+.img_experience{
+
+    border-radius: 0px 0px 30px 30px;
+
+}
+
 /* Tablet */
 @media (min-width: 500px){
+
+    
     /* Ancho del Navbar */
     .header{
         width: 90%;
@@ -139,6 +252,7 @@ body{
 
 /* Desktop */
 @media (min-width: 1024px){
+
     /* Fijamos el ancho del Navbar a partir de cierta medida de ordenadores */
     .header{
         width: 942px;
